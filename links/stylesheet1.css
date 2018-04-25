@@ -1,0 +1,65 @@
+
+.navibar {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    background-color:#FFAF00;
+    border:#FFAF00 outset 5px;
+}
+
+.navibutton {
+    display: inline;
+    background-color:#FFFF00;
+    border:#FFFF00 outset 5px;
+}
+
+.hlist{
+    display: inline;
+    width: 200px;
+}
+.img {
+     /* This makes the cursor a finger pointer. */
+    cursor: pointer;
+    background-color:gray;
+    width: 200px;
+    display: inline;
+}
+.sel {
+    background-color:green;
+    width: 580px;
+}
+.mute {
+        /* This makes the element transparent. */
+    width: 10px;
+}
+body {
+    text-align:center;
+    background-color:#A0A000;
+}
+a {
+    color: #000000;
+}
+h1 { 
+    color: #FFFF00
+}
+.left-div {
+    margin: 30px;
+    background-color: linen;
+    text-align: center
+    border: green ridge 20px;
+    padding: 30px;
+}
+.right-div {
+    margin: 30px;
+    background-color: skyblue;
+    text-align: center
+    border: orange ridge 20px;
+    padding: 30px;
+}
+.center-div {
+    background-color: orange;
+    text-align: center;
+    border: yellow ridge 20px;
+    padding: 30px;
+    margin: 30px;
+}

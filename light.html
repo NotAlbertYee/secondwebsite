@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="/links/stylesheet1.css" type="text/css">
+</head>
+<body>
+<script>
+let lightm = 299792458
+let hund = 100
+var lightcm
+function lightm2c(p1, p2) {
+    return p1 * p2;
+}
+var lightcm = (lightm2c(lightm, hund)+' cm/s')
+function lightcma() { 
+alert(lightcm)
+}
+</script>
+<button class="navibutton" onclick="lightcma()">Change Light m/s to cm/s</button>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="links/stylesheet1.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="scripts.js"></script>
+<script>
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $(".navibar").hide();
+    });
+    $("#show").click(function(){
+        $(".navibar").show();
+    });
+});
+</script>
+</head>
+<body>
+<div>
+<ul class="navibar">
+<li class="navibutton"> <a href="index.html">Home</a> </li>
+<li class="navibutton"> <a href="birds.html">Birds</a> </li>
+<li class="navibutton"> <a href="old.html">Old Verison</a> </li>
+</ul>
+</div>
+<div>
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+</div>
+
+
+</body>
+</html>
